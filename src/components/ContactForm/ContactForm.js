@@ -38,7 +38,7 @@ class ContactForm extends Component {
                         name="number"
                         value={number}
                         onChange={this.handleChange}
-                        placeholder="099-99-99-999" />
+                        placeholder="099-99-99" />
                 </label>
                 <button className={styles.btn} type="submit">
                         Add contact
